@@ -1,13 +1,5 @@
 
-SELECT *
-FROM PortfolioProject..covid_deaths
-WHERE continent is not null
-
-
-
-
-
--- Select Data that we are going to be using
+-- Looking at some of the data that we are going to be using
 SELECT Location, date, total_cases, new_cases, total_deaths, population
 FROM PortfolioProject..covid_deaths 
 WHERE continent is not null
